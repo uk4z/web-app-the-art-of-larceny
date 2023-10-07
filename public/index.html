@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/game_icon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Rust game!"
+    />
+    <title>The Art of Larceny</title>
+  </head>
+  <body>
+    <div id="root">
+      <!-- You can add content specific to this div if needed -->
+      <script type="module">
+          // Load the Bevy game WASM module
+        import('./out/the_art_of_larceny.js') // Replace with the actual path to your Bevy game WASM module
+        .then((module) => {
+          // When the module is loaded, initialize and run your game
+          return module.default();
+        })
+        .then(() => {
+          // Append the canvas to the gameContainer div
+          const game = document.getElementsByClassName('game');
+          const canvas = document.getElementById('gameContainer');
+          game.appendChild(canvas);
+        })
+        .catch(console.error);
+        
+      </script>
+
+    </div>
+  </body>
+</html>
