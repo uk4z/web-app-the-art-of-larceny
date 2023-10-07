@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-app-the-art-of-larceny/static/css/main.e935b846.css",
+    "main.js": "/web-app-the-art-of-larceny/static/js/main.dcc499e0.js",
+    "static/js/787.d64bb760.chunk.js": "/web-app-the-art-of-larceny/static/js/787.d64bb760.chunk.js",
+    "index.html": "/web-app-the-art-of-larceny/index.html",
+    "main.e935b846.css.map": "/web-app-the-art-of-larceny/static/css/main.e935b846.css.map",
+    "main.dcc499e0.js.map": "/web-app-the-art-of-larceny/static/js/main.dcc499e0.js.map",
+    "787.d64bb760.chunk.js.map": "/web-app-the-art-of-larceny/static/js/787.d64bb760.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e935b846.css",
+    "static/js/main.dcc499e0.js"
+  ]
+}
