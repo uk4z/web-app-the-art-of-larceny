@@ -1,9 +1,17 @@
 import '../css/game.css'
+import loadGame from './loadgame';
+
 
 function Game() {
+  const startGame = () => {
+    const button = document.getElementById("startGameButton"); 
+    button.remove(); 
+    loadGame();   
+  }
   return(
     <div className="game">
-        <canvas id="gameContainer" style={{width:'100%', height:'100%', border: 'None'}}></canvas>
+        <button className="startButton" id="startGameButton" onClick={startGame}>Start Game</button>
+        <canvas id="gameContainer" style={{width:'0px', height:'0px', border: 'None'}}></canvas>
     </div>
   );
 }

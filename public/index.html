@@ -13,24 +13,6 @@
   </head>
   <body>
     <div id="root">
-      <!-- You can add content specific to this div if needed -->
-      <script type="module">
-          // Load the Bevy game WASM module
-        import('./out/the_art_of_larceny.js') // Replace with the actual path to your Bevy game WASM module
-        .then((module) => {
-          // When the module is loaded, initialize and run your game
-          return module.default();
-        })
-        .then(() => {
-          // Append the canvas to the gameContainer div
-          const game = document.getElementsByClassName('game');
-          const canvas = document.getElementById('gameContainer');
-          game.appendChild(canvas);
-        })
-        .catch(console.error);
-        
-      </script>
-
     </div>
   </body>
 </html>
