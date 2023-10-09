@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/web-app-the-art-of-larceny/static/css/main.84f0fe85.css",
-    "main.js": "/web-app-the-art-of-larceny/static/js/main.36484570.js",
-    "static/js/71.d97296e4.chunk.js": "/web-app-the-art-of-larceny/static/js/71.d97296e4.chunk.js",
+    "main.js": "/web-app-the-art-of-larceny/static/js/main.931122e3.js",
+    "static/js/71.86ef15ab.chunk.js": "/web-app-the-art-of-larceny/static/js/71.86ef15ab.chunk.js",
     "static/js/787.d64bb760.chunk.js": "/web-app-the-art-of-larceny/static/js/787.d64bb760.chunk.js",
-    "static/media/the_art_of_larceny_bg.wasm": "/web-app-the-art-of-larceny/static/media/the_art_of_larceny_bg.0889e0b9cbc84c4acebd.wasm",
+    "static/media/the_art_of_larceny_bg.wasm": "/web-app-the-art-of-larceny/static/media/the_art_of_larceny_bg.96e8285a0834ff3423fa.wasm",
     "index.html": "/web-app-the-art-of-larceny/index.html",
     "main.84f0fe85.css.map": "/web-app-the-art-of-larceny/static/css/main.84f0fe85.css.map",
-    "main.36484570.js.map": "/web-app-the-art-of-larceny/static/js/main.36484570.js.map",
-    "71.d97296e4.chunk.js.map": "/web-app-the-art-of-larceny/static/js/71.d97296e4.chunk.js.map",
+    "main.931122e3.js.map": "/web-app-the-art-of-larceny/static/js/main.931122e3.js.map",
+    "71.86ef15ab.chunk.js.map": "/web-app-the-art-of-larceny/static/js/71.86ef15ab.chunk.js.map",
     "787.d64bb760.chunk.js.map": "/web-app-the-art-of-larceny/static/js/787.d64bb760.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84f0fe85.css",
-    "static/js/main.36484570.js"
+    "static/js/main.931122e3.js"
   ]
 }
