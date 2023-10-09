@@ -1,0 +1,29 @@
+.mobileNavbar {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(46, 51, 64);
+  }
+  
+.mobileContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: rgb(29, 33, 41); 
+}
+
+.enterCompetition {
+    background-Color: rgb(233, 100, 0);
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.helpMessage {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
